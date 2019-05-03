@@ -1,5 +1,6 @@
 # forms.py
 
+```python
 from .widgets import ColorPickerWidget
 
 class MyForm(forms.ModelForm):
@@ -8,3 +9,4 @@ class MyForm(forms.ModelForm):
         widgets = {
             'color': ColorPickerWidget(),
         }
+```
